@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="820" viewBox="0 0 1680 820" role="img" aria-label="VAnimation — Orchestrated motion"><title>VAnimation — Orchestrated motion</title><desc>Editorial diagram showing a bounded timeline and owned resources</desc>
+<path d="M142 128L201 82H457" fill="none" stroke="#B8A0EA" stroke-width="2.5" opacity=".5"/>
+<g transform="rotate(.55 835 415)"><rect x="136" y="112" width="1418" height="648" rx="7" fill="#02040A" opacity=".45"/><rect x="124" y="100" width="1418" height="648" rx="6" fill="#352C4D" opacity=".9"/><rect x="112" y="88" width="1418" height="648" rx="5" fill="#1B202A" stroke="#50596B" stroke-width="2"/><path d="M112 88H1530" stroke="#B8A0EA" stroke-width="3" opacity=".85"/><path d="M175 170V677" stroke="#8C72B8" stroke-width="2" opacity=".7"/></g>
+<g font-family="Inter,Arial,Helvetica,sans-serif">
+<text x="195" y="166" fill="#B8A0EA" font-size="20" font-weight="750" letter-spacing="2.2">03 / TIMELINES</text>
+<text x="192" y="256" fill="#F8F7FC" font-size="63" font-weight="740" letter-spacing="-2">Orchestrated motion.</text>
+<text x="196" y="300" fill="#B7C1D0" font-size="25">A shared visual layer that leaves games in control.</text>
+<path d="M194 335H1442" stroke="#50596B" stroke-width="2"/>
+<rect x="194" y="366" width="618" height="96" rx="3" fill="#161C27" stroke="#414756"/><rect x="194" y="366" width="6" height="96" fill="#B8A0EA"/><text x="222" y="402" font-size="17" font-weight="750" fill="#B8A0EA">01</text><text x="279" y="403" font-size="27" font-weight="730" fill="#F8F7FC">Run a sequence</text><text x="279" y="436" font-size="18" fill="#B7C1D0">A timeline with a clear scope and finish.</text><rect x="194" y="472" width="618" height="96" rx="3" fill="#161C27" stroke="#414756"/><rect x="194" y="472" width="6" height="96" fill="#B8A0EA"/><text x="222" y="508" font-size="17" font-weight="750" fill="#B8A0EA">02</text><text x="279" y="509" font-size="27" font-weight="730" fill="#F8F7FC">Animate displays</text><text x="279" y="542" font-size="18" fill="#B7C1D0">Item, block, and text display visuals.</text><rect x="194" y="578" width="618" height="96" rx="3" fill="#161C27" stroke="#414756"/><rect x="194" y="578" width="6" height="96" fill="#B8A0EA"/><text x="222" y="614" font-size="17" font-weight="750" fill="#B8A0EA">03</text><text x="279" y="615" font-size="27" font-weight="730" fill="#F8F7FC">Cancel and release</text><text x="279" y="648" font-size="18" fill="#B7C1D0">Managed resource ownership and cleanup.</text><rect x="848" y="361" width="594" height="324" rx="5" fill="#161C27" stroke="#50596B"/>
+<text x="882" y="406" font-size="18" font-weight="750" letter-spacing="1.4" fill="#B8A0EA">BOUNDED TIMELINE</text>
+<path d="M882 422H1404" stroke="#4B5263" stroke-width="2"/>
+<path d="M900 548H1386" stroke="#5B586D" stroke-width="3"/>
+<path d="M900 548H1386" stroke="#B8A0EA" stroke-width="3" stroke-dasharray="8 12"/>
+<g text-anchor="middle" font-size="14" font-weight="750">
+<rect x="880" y="491" width="88" height="42" rx="3" fill="#3A324C" stroke="#9076B4"/><text x="924" y="518" fill="#F8F7FC">START</text>
+<rect x="1038" y="469" width="100" height="64" rx="3" fill="#423352" stroke="#B8A0EA"/><text x="1088" y="508" fill="#F8F7FC">RUN</text>
+<rect x="1201" y="489" width="123" height="44" rx="3" fill="#3C304C" stroke="#C5A4E7"/><text x="1262" y="517" fill="#F8F7FC">END</text>
+</g>
+<circle cx="924" cy="548" r="6.5" fill="#A68BBF"/><circle cx="1088" cy="548" r="7" fill="#B8A0EA"/><circle cx="1262" cy="548" r="7" fill="#F062B4"/>
+<text x="883" y="616" fill="#B7C1D0" font-size="18">A controlled visual sequence,</text>
+<text x="883" y="644" fill="#B7C1D0" font-size="18">not an uncontrolled effect loop.</text>
+<text x="1440" y="724" text-anchor="end" fill="#8C72B8" font-size="14" letter-spacing="1.0">EDITORIAL DIAGRAM / NOT A LIVE UI</text>
+</g></svg>
