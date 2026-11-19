@@ -35,6 +35,22 @@ The goal isn't to add movement everywhere. It's to make each animation feel like
 
 These capabilities describe the prepared VAnimation preview; individual integrations should be evaluated against their actual build.
 
+## Example: A reward reveal
+
+Imagine a player earning a rare reward in a minigame. The game plugin handles the reward itself; **VAnimation handles the moment around it**.
+
+<p align="center">
+  <img src="assets/vanimation-02-reward-example.svg" width="100%" alt="Illustrated example of a reward animation: game awards item, VAnimation reveals it with item and text displays, then cleans up" />
+</p>
+
+**How the sequence could work:**
+
+1. **Trigger:** The minigame confirms a reward and requests a short visual sequence.
+2. **Reveal:** An animated item display rises into view, while a text display briefly announces the reward.
+3. **Finish:** On completion or cancellation, VAnimation releases the visual resources it owns. The game retains ownership of the actual item and reward rules.
+
+This is an **illustrative integration scenario** built around the preview's documented display-animation and lifecycle features—not a captured in-game demonstration, published API snippet, or claim that an identical preset already ships.
+
 ## Visuals with a purpose <img src="assets/emoji/vanimation-teacher.png" alt="Mini Zoiila presenting an idea" width="25" height="25" />
 
 <p align="center">
