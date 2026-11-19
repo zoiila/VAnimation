@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="790" viewBox="0 0 1680 790" role="img" aria-label="VAnimation example: a reward reveal that starts, highlights an item, and finishes cleanly">
+<title>VAnimation — Reward Reveal Example</title>
+<desc>An editorial storyboard showing a hypothetical diamond reward reveal using the documented display-animation concepts. Not a gameplay screenshot.</desc>
+<path d="M134 127L210 75H462" fill="none" stroke="#B8A0EA" stroke-width="2.5" opacity=".46"/>
+<g transform="rotate(-.5 830 395)">
+<rect x="136" y="116" width="1418" height="612" rx="7" fill="#02040A" opacity=".45"/>
+<rect x="124" y="104" width="1418" height="612" rx="6" fill="#352C4D" opacity=".9"/>
+<rect x="112" y="92" width="1418" height="612" rx="5" fill="#1B202A" stroke="#50596B" stroke-width="2"/>
+<path d="M112 92H1530" stroke="#B8A0EA" stroke-width="3" opacity=".86"/>
+<path d="M175 174V637" stroke="#8C72B8" stroke-width="2" opacity=".74"/>
+</g>
+<g font-family="Inter,Arial,Helvetica,sans-serif">
+<text x="194" y="161" fill="#B8A0EA" font-size="20" font-weight="750" letter-spacing="2.3">02 / EXAMPLE SCENE</text>
+<text x="191" y="254" fill="#F8F7FC" font-size="63" font-weight="745" letter-spacing="-2.2">Give the reward a moment.</text>
+<text x="197" y="298" fill="#B7C1D0" font-size="25">One example of a short, intentional visual sequence.</text>
+<path d="M195 333H1441" stroke="#50596B" stroke-width="2"/>
+<g>
+<text x="207" y="396" fill="#B8A0EA" font-size="18" font-weight="760" letter-spacing="1.7">01</text>
+<text x="257" y="396" fill="#F8F7FC" font-size="27" font-weight="730">The game grants a reward.</text>
+<text x="257" y="429" fill="#B7C1D0" font-size="18">Gameplay logic remains in the game plugin.</text>
+<path d="M208 451H851" stroke="#46495A" stroke-width="1.5"/>
+<text x="207" y="494" fill="#B8A0EA" font-size="18" font-weight="760" letter-spacing="1.7">02</text>
+<text x="257" y="494" fill="#F8F7FC" font-size="27" font-weight="730">The visual takes focus.</text>
+<text x="257" y="527" fill="#B7C1D0" font-size="18">An item rises as a text display appears.</text>
+<path d="M208 549H851" stroke="#46495A" stroke-width="1.5"/>
+<text x="207" y="592" fill="#B8A0EA" font-size="18" font-weight="760" letter-spacing="1.7">03</text>
+<text x="257" y="592" fill="#F8F7FC" font-size="27" font-weight="730">The sequence finishes.</text>
+<text x="257" y="625" fill="#B7C1D0" font-size="18">Complete or cancel; release owned visuals.</text>
+</g>
+<path d="M887 364V647" stroke="#4B5263" stroke-width="2"/>
+<g transform="translate(940 363)">
+<rect x="0" y="0" width="481" height="279" rx="5" fill="#151B26" stroke="#555269" stroke-width="1.8"/>
+<path d="M23 20H457" stroke="#6B5985" stroke-width="1.2" opacity=".8"/>
+<text x="27" y="50" fill="#BCA2EF" font-size="16" font-weight="750" letter-spacing="1.8">SCENE CONCEPT</text>
+<text x="243" y="89" text-anchor="middle" fill="#F8F7FC" font-size="29" font-weight="760">REWARD UNLOCKED</text>
+<text x="243" y="115" text-anchor="middle" fill="#B7C1D0" font-size="15">A brief reveal, then back to the game</text>
+<ellipse cx="241" cy="239" rx="117" ry="16" fill="#060810" opacity=".52"/>
+<path d="M154 190Q243 119 330 190" fill="none" stroke="#BA9AE3" stroke-width="2" opacity=".60" stroke-dasharray="6 10"/>
+<path d="M172 207L190 181M311 181L329 207" stroke="#BCA2EF" stroke-width="3" stroke-linecap="round" opacity=".70"/>
+<g transform="translate(244 174) rotate(-7)">
+<path d="M-73 -31L-30 -69H38L73 -31L9 56H-8Z" fill="#9478B8" stroke="#D9C3F6" stroke-width="5" stroke-linejoin="round"/>
+<path d="M-30 -69L-15 -30H17L38 -69M-73 -31H73M-15 -30L0 56L17 -30" fill="none" stroke="#EDE1FC" stroke-width="4" stroke-linejoin="round"/>
+<path d="M-73 -31L-15 -30L0 56M73 -31L17 -30L0 56" fill="#BDA6DF" opacity=".40"/>
+</g>
+<path d="M125 160L125 172M119 166H131M376 178V196M367 187H385M347 124V138M340 131H354" stroke="#D2B8F4" stroke-width="3" stroke-linecap="round"/>
+</g>
+<text x="1419" y="692" text-anchor="end" font-size="14" font-weight="650" fill="#9181B0" letter-spacing=".9">ILLUSTRATIVE EXAMPLE / NOT A GAMEPLAY CAPTURE</text>
+</g>
+</svg>
