@@ -1,51 +1,110 @@
-![Vack Studio VAnimation banner](assets/vanimation-banner.svg)
+<p align="center">
+  <img src="assets/vanimation-01-hero.svg" width="100%" alt="VAnimation by VACK STUDIO — motion made meaningful, with Mini Zoiila sitting on the first banner's edge" />
+</p>
 
-# VAnimation | Vack Studio
+# VAnimation <img src="assets/emoji/vanimation-wave.png" alt="Mini Zoiila waving" width="29" height="29" />
 
-Shared animation orchestration for Minecraft plugins, with bounded timelines, cancellation and owned-resource cleanup. Games retain ownership of their rules, movement and rewards.
+**Motion made meaningful.**
 
-## Latest prepared preview: 0.3.0-preview.1
+The details between gameplay moments can define the entire experience. A transition that feels natural. A display that draws attention at the right time. An effect that knows when to end.
 
-- Twelve shipped effects: six vanilla effects plus six Sugarverse effects.
-- Consumer-scoped handles, completion outcomes, priority queues and configurable resource limits.
-- Item, block and text display animation, transforms and per-viewer visibility.
-- Optional Sugarverse demonstration with 50 items and 50 placeable block types, including three sword designs with a configurable self-only Speed/Resistance ability.
-- Paginated test kits and exact resource-pack version/hash/APPLIED readiness checks.
-- English by default, explicit English / العربية selection and UUID-based language preferences.
+**VAnimation** is VACK STUDIO's shared animation layer for Minecraft plugins. It brings visual sequences into one coordinated system, while the games using it stay in charge of their own gameplay, movement, and rewards.
 
-Targets **Minecraft Java 26.2 and Java 25**, built against Paper API 26.2.build.134-stable. The prepared preview passed **69 Java tests and 12 resource-pack tests**. Both runtime JARs were rebuilt byte-identically from the delivered source. This version has not completed real-server, graphical-client or mixed-language multiplayer acceptance. No Folia, Leaf, Bedrock or proxy certification is claimed.
+## Make every moment move <img src="assets/emoji/vanimation-thinking.png" alt="Mini Zoiila thinking" width="25" height="25" />
 
-The demonstration blocks use vanilla glass collision carriers with custom display models; they are not new client registry blocks. Lantern brightness is visual and does not create real block light. Audio playback integration remains deferred. The latest prepared preview is not a stable release.
+From brief visual cues to more expressive sequences, VAnimation brings a consistent approach to creating motion across Minecraft experiences.
 
-## Availability and license
+The prepared animation engine covers **item, block, and text displays**, with transforms and per-viewer visibility. Its documented effect collection includes **six vanilla effects and six Sugarverse effects**, offering a starting point for different visual moods.
 
-Source and installable artifacts are distributed privately. This repository is an information-only showcase, without binaries or download links.
+<p align="center">
+  <img src="assets/vanimation-03-timelines.svg" width="100%" alt="VAnimation visual overview — sequenced effects, display motion and lifecycle control" />
+</p>
 
-**License: Proprietary — All rights reserved.** See [LICENSE](LICENSE).
+The goal isn't to add movement everywhere. It's to make each animation feel like it belongs to the moment.
+
+## A shared language for visual effects
+
+| Capability | The creative value |
+| :--- | :--- |
+| **Timeline sequences** | Shape an effect with a defined beginning, progression, and finish |
+| **Display animation** | Bring item, block, and text displays into a coordinated visual scene |
+| **Transforms and visibility** | Adjust how displays appear and who sees them |
+| **Consumer ownership** | Let each game control the sequences it starts |
+| **Cancellation and cleanup** | End an effect cleanly without leaving its owned resources behind |
+| **Priority and limits** | Keep concurrent visual work bounded and manageable |
+
+These capabilities describe the prepared VAnimation preview; individual integrations should be evaluated against their actual build.
+
+## Example: A reward reveal
+
+Imagine a player earning a rare reward in a minigame. The game plugin handles the reward itself; **VAnimation handles the moment around it**.
+
+<p align="center">
+  <img src="assets/vanimation-02-reward-example.svg" width="100%" alt="Illustrated example of a reward animation: game awards item, VAnimation reveals it with item and text displays, then cleans up" />
+</p>
+
+**How the sequence could work:**
+
+1. **Trigger:** The minigame confirms a reward and requests a short visual sequence.
+2. **Reveal:** An animated item display rises into view, while a text display briefly announces the reward.
+3. **Finish:** On completion or cancellation, VAnimation releases the visual resources it owns. The game retains ownership of the actual item and reward rules.
+
+This is an **illustrative integration scenario** built around the preview's documented display-animation and lifecycle features—not a captured in-game demonstration, published API snippet, or claim that an identical preset already ships.
+
+## Visuals with a purpose <img src="assets/emoji/vanimation-teacher.png" alt="Mini Zoiila presenting an idea" width="25" height="25" />
+
+<p align="center">
+  <img src="assets/vanimation-04-experience.svg" width="100%" alt="VAnimation editorial guide — display motion, viewer-aware moments and coordinated effects" />
+</p>
+
+Great Minecraft visuals support the game instead of obscuring it. A little movement can emphasize an important event; a longer sequence can establish atmosphere; a precisely timed ending leaves the screen ready for what happens next.
+
+For themed experiences, the optional **Sugarverse demonstration** explores custom display models, items, and blocks. Its sample content is a demonstration of presentation concepts—not a claim that Minecraft gains new client-side block registrations.
+
+## Built to collaborate
+
+VAnimation focuses on visual orchestration, so consuming plugins can focus on their own game flow. The prepared design includes consumer-scoped handles, completion outcomes, queued work, and lifecycle cleanup.
+
+The public project showcase does **not** provide the full implementation, an installation package, or a supported integration guide. Obtain the appropriate version and documentation through VACK STUDIO before using it in a server environment.
+
+<details>
+<summary><strong>Technical reference and release status</strong></summary>
+
+The documented prepared build is **0.3.0-preview.1**, targeting Minecraft Java 26.2, Java 25, and Paper API 26.2.build.134-stable.
+
+Its preparation included 69 passing Java tests and 12 passing resource-pack tests, with byte-identical JAR rebuilds from the delivered source. **Real-server, graphical-client, and mixed-language multiplayer acceptance was not completed.** Compatibility with Folia, Leaf, Bedrock, and proxy platforms is not certified.
+
+The optional demonstration contains 50 items and 50 placeable block types, including three sword designs with a configurable self-only Speed/Resistance ability. Demonstration blocks use vanilla glass collision carriers with display models; they are not new client-registry blocks. Lantern glow does not create real block light, and audio playback integration remains deferred.
+
+Language options documented for the preview are English by default and explicit English / العربية selection, with UUID-based preferences. Resource-pack readiness checks include version, hash, and `APPLIED` status.
+
+This is a **prepared preview**, not a verified stable public release.
+
+</details>
+
+## Access and licensing
+
+**VAnimation is proprietary software by VACK STUDIO.** This public repository is a presentation of the project, not a source or binary distribution. Viewing the repository does not grant permission to copy, modify, redistribute, or commercially use its original software or visual assets.
+
+For licensing and authorized access, contact VACK STUDIO using the links below. See [LICENSE](LICENSE) for the full rights notice.
 
 ---
 
-## العربية
+<p align="center">
+  <img src="assets/vanimation-05-studio-signature.svg" width="100%" alt="VACK STUDIO signature with the original Zoiila and Chick artwork" />
+</p>
 
-إضافة مشتركة لتنسيق الأنيميشن لإضافات Minecraft، مع تسلسلات زمنية محدودة وإلغاء وتنظيف للموارد المملوكة. تبقى قواعد اللعب والنقل والمكافآت من مسؤولية اللعبة.
+<p align="center">
+  <a href="https://builtbybit.com/members/vack-studio.891381/#latest-activity" title="BuiltByBit" aria-label="BuiltByBit"><img src="assets/builtbybit.svg" alt="BuiltByBit" width="26" height="26" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://discord.gg/y45brtZBEE" title="Discord" aria-label="Discord"><img src="assets/discord.svg" alt="Discord" width="26" height="26" /></a>
+</p>
 
-### أحدث نسخة تجريبية مجهزة: 0.3.0-preview.1
+<details>
+<summary><strong>Artwork credits</strong></summary>
 
-- 12 مؤثرًا مرفقًا: ستة مؤثرات فانيلا وستة مؤثرات Sugarverse.
-- تشغيل وإلغاء معزولان بحسب الإضافة المستهلكة، وقوائم انتظار بالأولوية وحدود موارد قابلة للتخصيص.
-- أنيميشن عرض العناصر والبلوكات والنصوص، مع التحويلات والظهور الخاص لكل مشاهد.
-- إضافة تجربة اختيارية تضم 50 آيتم و50 نوع بلوك، منها ثلاثة تصاميم سيوف بقدرة سرعة ومقاومة مؤقتة قابلة للتخصيص.
-- دفعات لتجربة العناصر، مع التحقق من إصدار الريسورس باك والهاشات وحالة APPLIED.
-- الإنجليزية افتراضيًا، واختيار English / العربية صراحةً، وحفظ اللغة بحسب UUID.
+Copyright © 2026 VACK STUDIO. All rights reserved.
 
-الهدف **Minecraft Java 26.2 وJava 25**، والبناء على Paper API 26.2.build.134-stable. اجتازت النسخة المجهزة **69 اختبار Java و12 اختبار ريسورس باك**، وأُعيد بناء الجارين من السورس المرفق بنتائج مطابقة بايتًا ببايت. اختبار هذا الإصدار على سيرفر وعميل رسومي ولاعبين بلغتين لم يكتمل؛ لا يوجد ادعاء بتوافق Folia أو Leaf أو Bedrock أو Proxy.
+The original V22 Mini Zoiila **Edge Sitter** pose decorates the first banner. Small Mini Zoiila emojis are existing Vgtb studio assets, while the interior banners are editorial illustrations rather than in-game screenshots. Third-party works remain subject to their owners' terms.
 
-تستخدم بلوكات التجربة تصادم زجاج فانيلا وموديلات عرض مخصصة؛ ليست بلوكات جديدة مسجلة عند العميل. سطوع الفانوس مرئي ولا ينتج إضاءة فعلية للبلوكات. تكامل تشغيل الصوت ما زال مؤجلًا. النسخة المجهزة تجريبية وليست إصدارًا مستقرًا.
-
-### التوفر والترخيص
-
-المصدر والملفات التنفيذية تُوزّع بصورة خاصة. هذا المستودع للتعريف فقط، دون ملفات تنفيذية أو روابط تنزيل.
-
-**الترخيص: ملكية خاصة — جميع الحقوق محفوظة.** راجع [LICENSE](LICENSE).
-
-Copyright (c) Vack Studio. All rights reserved.
+</details>

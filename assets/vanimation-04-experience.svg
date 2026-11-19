@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="820" viewBox="0 0 1680 820" role="img" aria-label="VAnimation — Every detail has a rhythm"><title>VAnimation — Visual Expression</title>
+<path d="M145 137L206 92H461" stroke="#B8A0EA" stroke-width="2.3" opacity=".45" fill="none"/>
+<path d="M1500 720L1592 774H1433" stroke="#765789" stroke-width="2.1" opacity=".38" fill="none"/>
+<g transform="rotate(-.52 837 408)">
+ <rect x="137" y="113" width="1418" height="649" rx="7" fill="#02040A" opacity=".45"/>
+ <rect x="125" y="101" width="1418" height="649" rx="6" fill="#352C4D" opacity=".91"/>
+ <rect x="113" y="89" width="1418" height="649" rx="5" fill="#1B202A" stroke="#50596B" stroke-width="2"/>
+ <path d="M113 89H1531" stroke="#B8A0EA" stroke-width="3" opacity=".87"/>
+ <path d="M176 171V687" stroke="#8C72B8" stroke-width="2" opacity=".78"/>
+</g>
+<g font-family="Inter,Arial,Helvetica,sans-serif">
+ <text x="194" y="164" font-size="19" fill="#B8A0EA" font-weight="760" letter-spacing="2.1">04 / VISUAL EXPRESSION</text>
+ <text x="193" y="258" fill="#F8F7FC" font-size="64" font-weight="740" letter-spacing="-2.3">Every detail has a rhythm.</text>
+ <text x="197" y="300" font-size="25" fill="#B7C1D0">Not louder effects. Better timing, placement, and intent.</text>
+ <path d="M194 336H1438" stroke="#50596B" stroke-width="2"/>
+ <g transform="translate(199 384)">
+  <text x="0" y="31" fill="#B8A0EA" font-size="22" font-weight="750">01</text>
+  <path d="M0 49H339" stroke="#4D4960" stroke-width="2"/>
+  <text x="0" y="104" font-size="32" font-weight="740" fill="#F8F7FC">Display motion</text>
+  <text x="0" y="149" font-size="21" fill="#B7C1D0">Give items, blocks, and text</text>
+  <text x="0" y="180" font-size="21" fill="#B7C1D0">a purposeful visual entrance.</text>
+ </g>
+ <path d="M588 404V580" stroke="#50596B" stroke-width="2"/>
+ <g transform="translate(635 384)">
+  <text x="0" y="31" fill="#B8A0EA" font-size="22" font-weight="750">02</text>
+  <path d="M0 49H330" stroke="#4D4960" stroke-width="2"/>
+  <text x="0" y="104" font-size="32" font-weight="740" fill="#F8F7FC">Viewer awareness</text>
+  <text x="0" y="149" font-size="21" fill="#B7C1D0">Shape how a moment appears</text>
+  <text x="0" y="180" font-size="21" fill="#B7C1D0">to the players watching.</text>
+ </g>
+ <path d="M1023 404V580" stroke="#50596B" stroke-width="2"/>
+ <g transform="translate(1074 384)">
+  <text x="0" y="31" fill="#B8A0EA" font-size="22" font-weight="750">03</text>
+  <path d="M0 49H349" stroke="#4D4960" stroke-width="2"/>
+  <text x="0" y="104" font-size="32" font-weight="740" fill="#F8F7FC">Clean endings</text>
+  <text x="0" y="149" font-size="21" fill="#B7C1D0">Let the sequence finish and</text>
+  <text x="0" y="180" font-size="21" fill="#B7C1D0">return focus to gameplay.</text>
+ </g>
+ <path d="M208 628C385 611 429 690 625 661S932 611 1105 657S1335 655 1426 626" stroke="#C3A6E8" stroke-width="2.6" fill="none" opacity=".70"/>
+ <circle cx="210" cy="628" r="5" fill="#B8A0EA"/>
+ <circle cx="827" cy="638" r="5" fill="#B8A0EA"/>
+ <circle cx="1425" cy="626" r="5" fill="#F062B4"/>
+ <text x="1437" y="717" fill="#8C72B8" font-size="14" letter-spacing="1" text-anchor="end">EDITORIAL ILLUSTRATION / NOT AN IN-GAME SCREENSHOT</text>
+</g>
+</svg>
