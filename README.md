@@ -88,7 +88,7 @@ This is a **prepared preview**, not a verified stable public release.
 
 For licensing and authorized access, contact VACK STUDIO using the links below. See [LICENSE](LICENSE) for the full rights notice.
 
----
+--- 
 
 <p align="center">
   <img src="assets/vanimation-05-studio-signature.svg" width="100%" alt="VACK STUDIO signature with the original Zoiila and Chick artwork" />
@@ -99,11 +99,11 @@ For licensing and authorized access, contact VACK STUDIO using the links below. 
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://discord.gg/y45brtZBEE" title="Discord" aria-label="Discord"><img src="assets/discord.svg" alt="Discord" width="26" height="26" /></a>
 </p>
-
+ 
 <details>
 <summary><strong>Artwork credits</strong></summary>
 
-Copyright © 2026 VACK STUDIO. All rights reserved.
+Copyright © 2026 VACK STUDIO. All rights reserved. 
 
 The original V22 Mini Zoiila **Edge Sitter** pose decorates the first banner. Small Mini Zoiila emojis are existing Vgtb studio assets, while the interior banners are editorial illustrations rather than in-game screenshots. Third-party works remain subject to their owners' terms.
 
